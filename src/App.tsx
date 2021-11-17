@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <img className="treeLogo" src={tree} alt="tree"/>
+          <img className="treeLogo" src={tree} alt="tree" />
           <h1 className="day">Day {readings[0].day}</h1>
           <div className="date">
             {new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}
