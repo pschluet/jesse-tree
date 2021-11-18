@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      function cleanText() {
+        const dirtyText = document.getElementById('dirtyText').value;
+
+        const cleanText = dirtyText
+          .replace(/[†ω]/g, '')
+          .replace(/\n/g, ' ')
+          .replace(/\d+(?=\w)/g, '')
+          .replace(/\s+/g, ' ');
+
+        document.getElementById('cleanText').value = cleanText;
+      }
+    </script>
+  </head>
+  <body>
+    <form name="myform" action="javascript:cleanText()">
+      <textarea
+        style="display: block"
+        name="dirtyText"
+        id="dirtyText"
+      ></textarea>
+      <input
+        style="margin: 30px 0px 30px 0px"
+        name="Submit"
+        type="submit"
+        value="Clean"
+      />
+    </form>
+    <textarea style="display: block" name="cleanText" id="cleanText"></textarea>
+  </body>
+</html>
