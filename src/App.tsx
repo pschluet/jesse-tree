@@ -10,8 +10,10 @@ import tree from './tree-512.png';
 
 const getDayNumberForToday = (): number => {
   const startDate = new Date(2021, 10, 15, 0, 0, 0, 0);
-  return Math.round((new Date().getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));;
-}
+  return Math.round(
+    (new Date().getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24),
+  );
+};
 
 function App() {
   const selectedReadings = readings[getDayNumberForToday() - 1];
@@ -32,10 +34,9 @@ function App() {
             <p className="subtitle">
               {selectedReadings.bibleVerses} | {selectedReadings.ornamentName}
             </p>
-            {selectedReadings.readingText.map(text => (
+            {selectedReadings.readingText.map((text) => (
               <p className="readingText">{text}</p>
             ))}
-            
           </div>
         </Grid>
       </Grid>
