@@ -9,23 +9,25 @@ import { Grid } from '@mui/material';
 import tree from './tree-512.png';
 
 function App() {
+  const selectedReadings = readings[2];
+
   return (
     <div className="App">
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <img className="treeLogo" src={tree} alt="tree" />
-          <h1 className="day">Day {readings[0].day}</h1>
+          <h1 className="day">Day {selectedReadings.day}</h1>
           <div className="date">
             {new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}
           </div>
         </Grid>
         <Grid item xs={12}>
           <div className="readingBody">
-            <h3 className="readingTitle">{readings[0].title}</h3>
+            <h3 className="readingTitle">{selectedReadings.title}</h3>
             <p className="subtitle">
-              {readings[0].bibleVerses} | {readings[0].ornamentName}
+              {selectedReadings.bibleVerses} | {selectedReadings.ornamentName}
             </p>
-            {readings[0].readingText.map(text => (
+            {selectedReadings.readingText.map(text => (
               <p className="readingText">{text}</p>
             ))}
             
