@@ -8,8 +8,13 @@ import { readings } from './readings';
 import { Grid } from '@mui/material';
 import tree from './tree-512.png';
 
+const getDayNumberForToday = (): number => {
+  const startDate = new Date(2021, 10, 15, 0, 0, 0, 0);
+  return Math.round((new Date().getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));;
+}
+
 function App() {
-  const selectedReadings = readings[2];
+  const selectedReadings = readings[getDayNumberForToday() - 1];
 
   return (
     <div className="App">
