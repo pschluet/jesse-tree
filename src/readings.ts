@@ -90,4 +90,14 @@ export const readings: ReadingDay[] = [
       `Then the Angel of the Lord called to Abraham a second time out of heaven, and said, “By Myself I have sworn, says the Lord, because you did this thing, and for My sake did not spare your beloved son, I will certainly bless you, and assuredly multiply your seed as the stars of heaven and as the sand on the seashore; and your seed shall inherit the cities of their enemies. In your seed all the nations of the earth shall be blessed, because you obeyed My voice.”`,
     ],
   },
+  {
+    day: 7,
+    title: `Jacob's Ladder`,
+    ornamentName: `Ladder`,
+    bibleVerses: 'Genesis 28:10-17',
+    readingText: [
+      `Now Jacob went out from the Well of Oath and went toward Haran. So he came to a certain place and stayed there all night, because the sun had set. Then he took one of the stones of that place and put it at his head, and he lay down in that place to sleep. Then he dreamed, and behold, a ladder was set up on the earth, and its top reached to heaven; and there the angels of God were ascending and descending on it. So behold, the Lord stood above it and said, “I am the Lord God of Abraham your father and the God of Isaac. Do not fear, the land on which you lie I will give to you and your seed. Also, your seed shall be as the dust of the earth; you shall spread abroad to the west and the east, to the north and the south; and in you and in your seed all the tribes of the earth shall be blessed. Behold, I am with you and will keep you wherever you go, and will bring you back to this land; for I will not leave you until I have done what I have spoken to you.”`,
+      `Then Jacob awoke from his sleep and said, “The Lord is in this place, and I did not know it.” So he was afraid and said, “How awesome is this place! This is none other than the house of God, and this is the gate of heaven.”`,
+    ],
+  },
 ];
