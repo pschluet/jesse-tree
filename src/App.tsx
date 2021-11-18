@@ -25,7 +25,10 @@ function App() {
             <p className="subtitle">
               {readings[0].bibleVerses} | {readings[0].ornamentName}
             </p>
-            <p className="readingText">{readings[0].readingText}</p>
+            {readings[0].readingText.map(text => (
+              <p className="readingText">{text}</p>
+            ))}
+            
           </div>
         </Grid>
       </Grid>
