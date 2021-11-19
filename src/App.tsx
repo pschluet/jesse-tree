@@ -10,7 +10,7 @@ import tree from './tree-512.png';
 
 const getDayNumberForToday = (): number => {
   const startDate = new Date(2021, 10, 15, 0, 0, 0, 0);
-  return Math.round(
+  return Math.ceil(
     (new Date().getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24),
   );
 };
