@@ -18,7 +18,7 @@ locals {
   name_prefix = var.project
   domain_name = "${var.subdomain}.${var.route53_hosted_zone_name}"
   common_tags = {
-    Project     = var.project
+    Project = var.project
   }
 }
 
