@@ -3,6 +3,8 @@
 .terraform
 .terraform.lock.hcl
 
+*.vp
+
 # dependencies
 /node_modules
 /.pnp
