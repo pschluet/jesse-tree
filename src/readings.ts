@@ -141,7 +141,7 @@ export const readings: ReadingDay[] = [
   },
   {
     day: 10,
-    title: `Israel’s blessing and prophecy on Judah`,
+    title: `Israel’s Blessing and Prophecy on Judah`,
     ornamentName: `Lion`,
     bibleVerses: 'Genesis 49:1-2,8-12',
     readingText: [
