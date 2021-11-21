@@ -38,11 +38,11 @@
 
 .leftButton {
   padding-top: 30px;
-  padding-left: 13px;
+  margin-left: 13px;
 }
 
 .rightButton {
   padding-top: 30px;
-  padding-right: 13px;
+  margin-right: 13px;
   text-align: right;
 }
