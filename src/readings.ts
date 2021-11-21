@@ -141,7 +141,7 @@ export const readings: ReadingDay[] = [
   },
   {
     day: 10,
-    title: `Israel’s blessing and prophecy on Judah`,
+    title: `Israel’s Blessing and Prophecy on Judah`,
     ornamentName: `Lion`,
     bibleVerses: 'Genesis 49:1-2,8-12',
     readingText: [
@@ -166,7 +166,7 @@ export const readings: ReadingDay[] = [
     day: 12,
     title: `Moses and the Burning Bush`,
     ornamentName: `Burning Bush`,
-    bibleVerses: 'Read Exodus 3:1-20',
+    bibleVerses: 'Exodus 3:1-20',
     readingText: [
       `Now Moses was tending the sheep of Jethro his father-in-law, the priest of Midian. Then he led them to the back of the desert and came to Horeb, the mountain of God. Then the Angel of the Lord appeared to him in a flame of fire from the midst of a bush. So he saw the bush burning with fire, but the bush was not consumed. So Moses said, “I will now turn aside and see this great sight, why the bush is not consumed.”`,
       `When therefore the Lord saw him turn aside to look, God called to him from the midst of the bush and said, “Moses! Moses!” Then he said, “Here I am.” So He said, “Do not come any closer. Take your sandals off your feet, for the place where you stand is holy ground.” Moreover He said, “I am the God of your father—the God of Abraham, the God of Isaac, and the God of Jacob.” Moses then hid his face, for he was afraid to look at God.`,
