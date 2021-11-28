@@ -276,4 +276,13 @@ export const readings: ReadingDay[] = [
       `Manna and Quail 6 Now they journeyed from Elim, and all the congregation of the children of Israel came to the Wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after they departed from the land of Egypt.`,
     ],
   },
+  {
+    day: 16,
+    title: `The Giving of the Commandments`,
+    ornamentName: `Stone Tablets`,
+    bibleVerses: 'Exodus 24:12-18',
+    readingText: [
+      `Then the Lord said to Moses, “Come up to Me on the mountain and be there; and I will give you tablets of stone and the law and commandments I wrote, that you may teach them.” So Moses arose with his assistant Joshua, and they went up to the mountain of God. But he said to the elders, “Wait here for us until we come back to you. Indeed, Aaron and Hur are with you. If any man has a difficulty, let him go to them.” Then Moses and Joshua went up the mountain, and the cloud covered the mountain. Now the glory of God descended on Mount Sinai, and the cloud covered it six days. Then on the seventh day the Lord called to Moses out of the midst of the cloud. The sight of the Lord's glory was like a burning fire on the top of the mountain before the children of Israel. So Moses went into the midst of the cloud and went up the mountain; and he was on the mountain forty days and forty nights.`,
+    ],
+  },
 ];
