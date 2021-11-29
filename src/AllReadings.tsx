@@ -16,16 +16,21 @@ export const AllReadings = () => {
 
   return (
     <>
-      {!isCurrentDaySelected() && (
-        <div className={styles.gotoTodayButton}>
-          <Button
-            onClick={() => setSelectedReadingIndex(getDayNumberForToday() - 1)}
-            variant="contained"
-          >
-            Go To Today
-          </Button>
-        </div>
-      )}
+      <div
+        className={
+          isCurrentDaySelected()
+            ? styles.gotoTodayButtonHidden
+            : styles.gotoTodayButton
+        }
+      >
+        <Button
+          onClick={() => setSelectedReadingIndex(getDayNumberForToday() - 1)}
+          variant="outlined"
+          size="small"
+        >
+          Go To Today
+        </Button>
+      </div>
       <SwipeableViews
         enableMouseEvents
         index={selectedReadingIndex}
