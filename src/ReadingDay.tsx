@@ -4,12 +4,7 @@ import { Grid, IconButton } from '@mui/material';
 import { startDate } from './App';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-
-const addDays = (date: Date, days: number) => {
-  var result = new Date(date);
-  result.setDate(result.getDate() + days);
-  return result;
-};
+import { addDays } from './date-utils';
 
 export const ReadingDay = ({
   dayNumber,
@@ -22,7 +17,6 @@ export const ReadingDay = ({
 }) => {
   const selectedReadings = readings[dayNumber - 1];
   const readingDate = addDays(startDate, dayNumber - 1);
-  // TODO: Arrows aren't the same distance from edges on mobile
   return (
     <Grid container spacing={0}>
       <Grid item xs={2}>
@@ -37,7 +31,7 @@ export const ReadingDay = ({
       <Grid item xs={8}>
         <h1 className={styles.day}>Day {selectedReadings.day}</h1>
       </Grid>
-      <Grid item xs={2} spacing={0}>
+      <Grid item xs={2}>
         <div className={styles.rightButton}>
           {dayNumber < readings.length && (
             <IconButton onClick={onIncrementClick}>
@@ -57,8 +51,10 @@ export const ReadingDay = ({
           <p className={styles.subtitle}>
             {selectedReadings.bibleVerses} | {selectedReadings.ornamentName}
           </p>
-          {selectedReadings.readingText.map((text) => (
-            <p className={styles.readingText}>{text}</p>
+          {selectedReadings.readingText.map((text, index) => (
+            <p key={index} className={styles.readingText}>
+              {text}
+            </p>
           ))}
         </div>
       </Grid>

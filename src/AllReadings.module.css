@@ -1,0 +1,15 @@
+.gotoTodayButton {
+  text-align: center;
+  margin-top: 14px;
+  height: 30.75px;
+  word-spacing: 20px;
+  transition: all 0.2s linear;
+}
+
+.gotoTodayButtonHidden {
+  height: 0px;
+  margin-top: 0px;
+  opacity: 0;
+  text-align: center;
+  transition: all 0.2s linear;
+}
