@@ -51,8 +51,10 @@ export const ReadingDay = ({
           <p className={styles.subtitle}>
             {selectedReadings.bibleVerses} | {selectedReadings.ornamentName}
           </p>
-          {selectedReadings.readingText.map((text) => (
-            <p className={styles.readingText}>{text}</p>
+          {selectedReadings.readingText.map((text, index) => (
+            <p key={index} className={styles.readingText}>
+              {text}
+            </p>
           ))}
         </div>
       </Grid>
