@@ -1,21 +1,19 @@
 import styles from './ReadingDay.module.css';
 import { readings } from './readings';
-import { Button, Grid, IconButton } from '@mui/material';
+import { Grid, IconButton } from '@mui/material';
 import { startDate } from './App';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import { addDays, isCurrentDay } from './date-utils';
+import { addDays } from './date-utils';
 
 export const ReadingDay = ({
   dayNumber,
   onIncrementClick,
   onDecrementClick,
-  onGotoTodayClick,
 }: {
   dayNumber: number;
   onIncrementClick: () => void;
   onDecrementClick: () => void;
-  onGotoTodayClick: () => void;
 }) => {
   const selectedReadings = readings[dayNumber - 1];
   const readingDate = addDays(startDate, dayNumber - 1);
@@ -48,11 +46,6 @@ export const ReadingDay = ({
         </div>
       </Grid>
       <Grid item xs={12}>
-        {!isCurrentDay(dayNumber) && (
-          <div className={styles.gotoTodayButton}>
-            <Button onClick={onGotoTodayClick}>Go To Today</Button>
-          </div>
-        )}
         <div className={styles.readingBody}>
           <h3 className={styles.readingTitle}>{selectedReadings.title}</h3>
           <p className={styles.subtitle}>
