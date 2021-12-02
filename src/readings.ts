@@ -317,7 +317,7 @@ export const readings: ReadingDay[] = [
   },
   {
     day: 18,
-    title: `Birth of Samuel and the Prayer of Anna`,
+    title: `Birth of Samuel and the Prayer of Hannah`,
     ornamentName: `Horn`,
     bibleVerses: '1 Kingdoms (1 Samuel) 1:1-2:10',
     readingText: [
