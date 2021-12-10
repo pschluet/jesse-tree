@@ -519,4 +519,37 @@ export const readings: ReadingDay[] = [
       `Then they stood up, but no longer saw him. They acknowledged the great and wondrous works of God, and how the angel of the Lord had appeared to them.`,
     ],
   },
+  {
+    day: 27,
+    title: `Call His Name Emmanuel`,
+    ornamentName: `Scroll with "Emmanuel"`,
+    bibleVerses: 'Isaiah 7:10-16, 8:1-4,8-10',
+    readingText: [
+      `Moreover the Lord added this to Ahaz, saying, “Ask a sign for yourself from the Lord your God; ask it either in the depth or in the height above.” But Ahaz said, “I will not ask, nor will I tempt the Lord.” Then Isaiah said, “Hear now, O house of David, is it a small thing for you to weary men, but will you weary the Lord also? Therefore the Lord Himself will give you a sign: behold, the virgin shall conceive and bear a Son, and you shall call His name Immanuel. Butter and honey He shall eat before He knows to prefer evil or choose the good, for before the Child knows good or evil, He refuses the evil to choose the good; and the land you fear because of the presence of the two kings will be abandoned.`,
+      `Moreover the Lord said to me, “Take for yourself a large new book, and write on it with a man's pen concerning making a swift plunder of spoils, for it is near at hand. Then make witnesses for Me of faithful men: Uriah and Zechariah, the son of Berechiah.” Then I went to the prophetess, and she conceived and bore a son, and the Lord said to me, “Call his name Quickly Despoil, Swiftly Plunder; for before the child shall know how to call for his father and mother, one shall take the power of Damascus and the spoils of Samaria in the presence of the king of Assyria.”`,
+      `...and take away from Judah every man able to raise his head or accomplish anything. His encampment will fill the breadth of Your land, O God with us. Know this, O Gentiles, and be defeated. Give ear, all you to the very ends of the earth. Be defeated although you are strong, for even if you should be strong again, you will be defeated again. Then too, whatever counsel you take, the Lord will scatter it abroad; and whatever word you shall speak, it will not continue among you, for the Lord God is with us.” `,
+    ],
+  },
+  {
+    day: 28,
+    title: `Great Rejoicing Foretold`,
+    ornamentName: `Throne`,
+    bibleVerses: 'Isaiah 9:6-7; 11:1-10',
+    readingText: [
+      `Great shall be His government, and of His peace there is no end. His peace shall be upon the throne of David and over His kingdom, to order and establish it with righteousness and judgment, from that time forward and unto ages of ages. The zeal of the Lord of hosts shall perform this.`,
+      `The Lord sent death against Jacob, and it came on Israel.`,
+      `There shall come forth a rod from the root of Jesse, and a flower shall grow out of his root. The Spirit of God shall rest upon Him, the Spirit of wisdom and understanding, the Spirit of counsel and might, the Spirit of knowledge and godliness. The Spirit of the fear of God shall fill Him. He shall not judge by reputation nor convict by common talk. But He will judge the cause of the humble, and reprove the humble of the earth. He shall strike the earth with the word of His mouth, and with the breath of His lips He shall slay the ungodly. He shall gird His loins with righteousness and cover his sides with truth.`,
+      `“The wolf shall feed with the lamb, the leopard shall lie down with the young goat, and the calf, the bull, and the lion shall feed together; and a little child shall lead them. The cow and the bear shall graze together, and their young ones shall lie down together. The lion and the ox shall eat straw together. The nursing child shall play by the hole of asps, and the weaned child shall put his hand in the den of asps. They shall not hurt nor be able to destroy anyone on My holy mountain, for the whole world shall be filled with the knowledge of the Lord, as much water covers the seas.`,
+      `“It shall come to pass in that day that there shall be a Root of Jesse who shall arise to rule nations. The Gentiles shall hope in Him, and His resting place shall be honorable.”`,
+    ],
+  },
+  {
+    day: 29,
+    title: `Visit of Kings Foretold`,
+    ornamentName: `Kings with Frankincense & Myrrh`,
+    bibleVerses: 'Isaiah 60:1-7',
+    readingText: [
+      `“Shine, shine, O Jerusalem, for your light is come, and the glory of the Lord is risen upon you. Behold, darkness and gloom shall cover the earth upon the nations, but the Lord will shine on you; and His glory shall be seen upon you. Kings shall come to your light, and the Gentiles to your brightness. Lift up your eyes all around, and see your children gathered together. Behold, all your sons come from afar, and your daughters shall be lifted upon their shoulders. Then you will see, fear and be amazed in your heart, because the wealth of the sea and of nations and peoples shall change their course and turn to you. Herds of camels shall come to you, and the camels of Midian and Ephah shall cover you. All those from Sheba shall come bearing gold, and they shall bring frankincense and proclaim the good news of the Lord's salvation. All the sheep of Kedar shall be gathered together to you, and the rams of Nebaioth shall come to you. They shall offer acceptable sacrifices upon My altar, and My house of prayer shall be glorified.`,
+    ],
+  },
 ];
