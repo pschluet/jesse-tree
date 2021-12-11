@@ -273,7 +273,8 @@ export const readings: ReadingDay[] = [
     readingText: [
       `Thus Moses brought Israel from the Red Sea; then they went out into the Wilderness of Shur. They went three days in the desert and found no water to drink. Now when they came to Marah, they could not drink the waters of Marah, for they were bitter. Therefore he named that place Bitterness. Then the people complained against Moses, saying, “What shall we drink?” So he cried to the Lord, and the Lord showed him a tree. When he cast it into the waters, the waters were made sweet. There He made a statute and an ordinance for them. There He proved him and said, “If you diligently heed the voice of the Lord your God and do what is pleasing in His sight, give ear to His commandments and keep all His ordinances, I will put none of the diseases on you that I brought on the Egyptians; for I am the Lord your God who heals you.”`,
       `Then they came to Elim, where there were twelve fountains of water and seventy palm trees; so they camped there by the waters.`,
-      `Manna and Quail 6 Now they journeyed from Elim, and all the congregation of the children of Israel came to the Wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after they departed from the land of Egypt.`,
+      `Manna and Quail`,
+      `Now they journeyed from Elim, and all the congregation of the children of Israel came to the Wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after they departed from the land of Egypt.`,
     ],
   },
   {
