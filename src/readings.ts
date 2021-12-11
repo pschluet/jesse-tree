@@ -477,7 +477,7 @@ export const readings: ReadingDay[] = [
   },
   {
     day: 26,
-    title: `Tobit`,
+    title: `Tobias`,
     ornamentName: `Fish`,
     bibleVerses: 'Tobit 6-9:6, 11:2-19, 12:6,11-22',
     readingText: [
