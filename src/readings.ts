@@ -553,4 +553,15 @@ export const readings: ReadingDay[] = [
       `“Shine, shine, O Jerusalem, for your light is come, and the glory of the Lord is risen upon you. Behold, darkness and gloom shall cover the earth upon the nations, but the Lord will shine on you; and His glory shall be seen upon you. Kings shall come to your light, and the Gentiles to your brightness. Lift up your eyes all around, and see your children gathered together. Behold, all your sons come from afar, and your daughters shall be lifted upon their shoulders. Then you will see, fear and be amazed in your heart, because the wealth of the sea and of nations and peoples shall change their course and turn to you. Herds of camels shall come to you, and the camels of Midian and Ephah shall cover you. All those from Sheba shall come bearing gold, and they shall bring frankincense and proclaim the good news of the Lord's salvation. All the sheep of Kedar shall be gathered together to you, and the rams of Nebaioth shall come to you. They shall offer acceptable sacrifices upon My altar, and My house of prayer shall be glorified.`,
     ],
   },
+  {
+    day: 30,
+    title: `Daniel`,
+    ornamentName: `Stone Smashing Statue`,
+    bibleVerses: `Daniel 2:31-36,44-45`,
+    readingText: [
+      `“As for you, O king, you saw and beheld one great image. That image was very large and its appearance excellent. It stood before you, and its vision was fearful. The image had a head made of fine gold, and its hands, chest, and arms were made of silver, and its stomach and thighs, of copper. Its legs were iron, and its feet were partly iron and partly clay. You saw while a stone was cut out of a mountain without hands, and it struck the image on its feet of iron and clay, and ground them to powder. Then at once the clay, the iron, the copper, the silver, and the gold were like dust from the summer threshing floor, and a great force of wind blew them away; and their place was not to be found. Then the stone that struck the image became a great mountain and filled all the earth.`,
+      `“This is the dream, and we will tell its interpretation before the king.`,
+      `“Then in the times of those kings, the God of heaven will raise up a kingdom, and it shall never be destroyed. This kingdom shall not be left to another people, but it will break in pieces and crush all these kingdoms; and it will stand forever. Whereas you saw the stone cut out of the mountain without hands, it ground to powder the clay, the iron, the copper, the silver, and the gold. Thus the great God has made known to the king what must come to pass after this. The dream is true, and its interpretation is trustworthy.”`,
+    ],
+  },
 ];
