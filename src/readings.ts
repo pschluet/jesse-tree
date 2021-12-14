@@ -760,4 +760,21 @@ export const readings: ReadingDay[] = [
       `And saved us from the midst of the fire.`,
     ],
   },
+  {
+    day: 32,
+    title: `God's Dwelling`,
+    ornamentName: `Ark of the Temple`,
+    bibleVerses: `Exodus 40, 3 Kingdoms (1 Kings) 8`,
+    readingText: [
+      `Setting Up the Tabernacle`,
+      `Now the Lord spoke to Moses, saying, “On the first day of the first month, the new moon, you shall set up the tabernacle of testimony. You shall put in it the ark of the testimony and cover the ark with the veil. You shall bring in the table and lay out its offering, and bring in the lampstand and install its lamps. You shall also set the altar of gold for the incense before the ark, and put up the veil for the door of the tabernacle of testimony. Then you shall set the altar of the burnt offerings before the door of the tabernacle of testimony. You shall put a cover over the tabernacle and consecrate everything pertaining to it. You shall take the anointing oil and anoint the tabernacle and everything in it; and you shall consecrate it and all its utensils, and it shall be holy. You shall anoint the altar of burnt offerings and all its utensils and consecrate the altar. The altar shall be most holy.`,
+      `Entrance of the Priests`,
+      `“Then you shall bring Aaron and his sons to the doors of the tabernacle of testimony and wash them with water. You shall put the holy garments on Aaron and anoint and consecrate him that he may minister to Me as priest. You shall also bring his sons and put garments on them. You shall anoint them as you anointed their father, so they may minister to Me as priests; for their anointing shall surely be an everlasting priesthood throughout their generations.” Thus Moses did; according to all the Lord commanded him, so he did.`,
+      `The Work Is Finished`,
+      `Then it came to pass in the first month of the second year after their departure from Egypt, on the first day of the month, the tabernacle was set up. So Moses set up the tabernacle, placed the capitals, inserted the bars, and set up the posts. He spread out the curtains over the tabernacle and put the veil of the tabernacle on it above, as the Lord commanded Moses.`,
+      `Then he took the testimonies, put them into the ark, and inserted the poles under the ark. He then brought the ark into the tabernacle, hung up the veil of the covering, and partitioned off the ark of the testimony, as the Lord commanded Moses. He put the table in the tabernacle of testimony, on the north side of the tabernacle of testimony, outside the veil of the tabernacle. He also set the bread of the offertory upon it before the Lord, in the manner the Lord commanded Moses. Then he put the lampstand in the tabernacle of testimony, on the south side of the tabernacle; and he placed its lamps before the Lord, as the Lord commanded Moses. He also put the gold altar in the tabernacle of testimony in front of the veil; and he burned the incense compound on it, as the Lord commanded Moses. Then he put the altar of burnt offering before the doors of the tabernacle. He also set up the court all around the tabernacle and the altar. So Moses finished all the work.`,
+      `The Overshadowing Cloud`,
+      `Then the cloud covered the tabernacle of testimony, and the tabernacle was filled with the Lord's glory. But Moses was not able to enter the tabernacle of testimony because the cloud overshadowed it, and the glory of the Lord filled the tabernacle. Whenever the cloud ascended from the tabernacle, the children of Israel prepared to depart with their belongings. But if the cloud did not ascend, they did not prepare to depart until the cloud ascended. For before all Israel, throughout all their journeys, the cloud was above the tabernacle by day, and fire was over it by night.`,
+    ],
+  },
 ];
