@@ -6,12 +6,13 @@
 }
 
 .date {
-  text-align: center;
   font-size: 14.66px;
+  display: inline;
 }
 
 #dateRow {
-  padding-top: 0px;
+  margin-top: -7px;
+  text-align: center;
 }
 
 .readingTitle {

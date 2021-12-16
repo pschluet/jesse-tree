@@ -1,19 +1,24 @@
 import styles from './ReadingDay.module.css';
 import { readings } from './readings';
-import { Grid, IconButton } from '@mui/material';
+import { Checkbox, Grid, IconButton } from '@mui/material';
 import { startDate } from './App';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import { addDays } from './date-utils';
+import { CheckCircle, RadioButtonUnchecked } from '@mui/icons-material';
 
 export const ReadingDay = ({
   dayNumber,
+  isCompleted,
   onIncrementClick,
   onDecrementClick,
+  onCompletedClick,
 }: {
   dayNumber: number;
+  isCompleted: boolean;
   onIncrementClick: () => void;
   onDecrementClick: () => void;
+  onCompletedClick: (dayNumber: number) => void;
 }) => {
   const selectedReadings = readings[dayNumber - 1];
   const readingDate = addDays(startDate, dayNumber - 1);
@@ -44,6 +49,12 @@ export const ReadingDay = ({
         <div className={styles.date}>
           {readingDate.toLocaleDateString('en-US', { dateStyle: 'long' })}
         </div>
+        <Checkbox
+          icon={<RadioButtonUnchecked />}
+          checkedIcon={<CheckCircle />}
+          checked={isCompleted}
+          onClick={() => onCompletedClick(dayNumber)}
+        />
       </Grid>
       <Grid item xs={12}>
         <div className={styles.readingBody}>
