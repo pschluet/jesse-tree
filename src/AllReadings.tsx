@@ -6,10 +6,15 @@ import { useEffect, useRef, useState } from 'react';
 import { getDayNumberForToday, isCurrentDay } from './date-utils';
 import { Button } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
+import { useLocalStorage } from 'usehooks-ts';
 
 export const AllReadings = () => {
   const [selectedReadingIndex, setSelectedReadingIndex] = useState(
     getDayNumberForToday() - 1,
+  );
+  const [completedDays, setCompletedDays] = useLocalStorage<number[]>(
+    `completedDays`,
+    [],
   );
 
   const previousReadingIndex = useRef<number>();
@@ -22,6 +27,17 @@ export const AllReadings = () => {
   };
   const selectedDayNumber = (): number => {
     return selectedReadingIndex + 1;
+  };
+  const onCompletedClick = (dayNumber: number) => {
+    setCompletedDays((previousValue) => {
+      if (previousValue.includes(dayNumber)) {
+        const newValues = new Set(previousValue);
+        newValues.delete(dayNumber);
+        return Array.from(newValues);
+      } else {
+        return [...previousValue, dayNumber];
+      }
+    });
   };
 
   return (
@@ -75,12 +91,16 @@ export const AllReadings = () => {
           <ReadingDay
             key={i + 1}
             dayNumber={i + 1}
+            isCompleted={completedDays.includes(i + 1)}
             onIncrementClick={() =>
               setSelectedReadingIndex(selectedReadingIndex + 1)
             }
             onDecrementClick={() => {
               setSelectedReadingIndex(selectedReadingIndex - 1);
             }}
+            onCompletedClick={(dayNumber: number) =>
+              onCompletedClick(dayNumber)
+            }
           />
         ))}
       </SwipeableViews>
