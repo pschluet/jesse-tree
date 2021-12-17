@@ -49,16 +49,19 @@ export const ReadingDay = ({
         <div className={styles.date}>
           {readingDate.toLocaleDateString('en-US', { dateStyle: 'long' })}
         </div>
-        <Checkbox
-          icon={<RadioButtonUnchecked />}
-          checkedIcon={<CheckCircle />}
-          checked={isCompleted}
-          onClick={() => onCompletedClick(dayNumber)}
-        />
       </Grid>
       <Grid item xs={12}>
         <div className={styles.readingBody}>
           <h3 className={styles.readingTitle}>{selectedReadings.title}</h3>
+          <div className={styles.completedCheckboxContainer}>
+            <Checkbox
+              icon={<RadioButtonUnchecked />}
+              checkedIcon={<CheckCircle />}
+              checked={isCompleted}
+              onClick={() => onCompletedClick(dayNumber)}
+              className={styles.completedCheckbox}
+            />
+          </div>
           <p className={styles.subtitle}>
             {selectedReadings.bibleVerses} | {selectedReadings.ornamentName}
           </p>
