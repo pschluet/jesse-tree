@@ -7,22 +7,30 @@
 
 .date {
   font-size: 14.66px;
-  display: inline;
 }
 
 #dateRow {
-  margin-top: -7px;
   text-align: center;
 }
 
 .readingTitle {
   font-size: 24px;
   margin-bottom: 0px;
+  display: inline;
+}
+
+.completedCheckboxContainer {
+  display: inline-block;
+}
+
+div .completedCheckboxContainer .completedCheckbox {
+  margin-bottom: 6px;
+  margin-left: -3px;
 }
 
 .subtitle {
   font-size: 14.66px;
-  margin-top: 0px;
+  margin-top: -9px;
   margin-bottom: 0px;
   color: #999999;
 }
@@ -35,6 +43,7 @@
 .readingBody {
   margin-left: 36px;
   margin-right: 36px;
+  margin-top: 24px;
 }
 
 .leftButton {
