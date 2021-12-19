@@ -31,7 +31,6 @@ function App() {
         <BottomNavigation
           value={selectedNav}
           onChange={(event, newIndex) => {
-            console.log(event);
             setSelectedNav(newIndex);
           }}
         >
