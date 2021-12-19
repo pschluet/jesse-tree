@@ -6,7 +6,9 @@ export interface ReadingDay {
   readingText: string[];
 }
 
-const comingSoonText = [`Reading text coming soon`];
+const comingSoonText = [
+  `Reading text coming soon. If you are viewing this in a browser, refresh the page to get the latest readings. If you have added this as an app to your homescreen, force-close the app and start it again to get the latest readings.`,
+];
 
 export const readings: ReadingDay[] = [
   {
@@ -905,14 +907,30 @@ export const readings: ReadingDay[] = [
     title: `Zacharias and Elizabeth`,
     ornamentName: `Censer`,
     bibleVerses: `Luke 1:5-25`,
-    readingText: comingSoonText,
+    readingText: [
+      `John's Birth Announced to Zacharias`,
+      `There was in the days of Herod, the king of Judea, a certain priest named Zacharias, of the division of Abijah. His wife was of the daughters of Aaron, and her name was Elizabeth. And they were both righteous before God, walking in all the commandments and ordinances of the Lord blameless. But they had no child, because Elizabeth was barren, and they were both well advanced in years.`,
+      `So it was, that while he was serving as priest before God in the order of his division, according to the custom of the priesthood, his lot fell to burn incense when he went into the temple of the Lord. And the whole multitude of the people was praying outside at the hour of incense. Then an angel of the Lord appeared to him, standing on the right side of the altar of incense. And when Zacharias saw him, he was troubled, and fear fell upon him.`,
+      `But the angel said to him, “Do not be afraid, Zacharias, for your prayer is heard; and your wife Elizabeth will bear you a son, and you shall call his name John. And you will have joy and gladness, and many will rejoice at his birth. For he will be great in the sight of the Lord, and shall drink neither wine nor strong drink. He will also be filled with the Holy Spirit, even from his mother's womb. And he will turn many of the children of Israel to the Lord their God. He will also go before Him in the spirit and power of Elijah, ‘to turn the hearts of the fathers to the children,’a and the disobedient to the wisdom of the just, to make ready a people prepared for the Lord.”`,
+      `And Zacharias said to the angel, “How shall I know this? For I am an old man, and my wife is well advanced in years.”`,
+      `And the angel answered and said to him, “I am Gabriel, who stands in the presence of God, and was sent to speak to you and bring you these glad tidings. But behold, you will be mute and not able to speak until the day these things take place, because you did not believe my words which will be fulfilled in their own time.”`,
+      `And the people waited for Zacharias, and marveled that he lingered so long in the temple. But when he came out, he could not speak to them; and they perceived that he had seen a vision in the temple, for he beckoned to them and remained speechless.`,
+      `So it was, as soon as the days of his service were completed, that he departed to his own house. Now after those days his wife Elizabeth conceived; and she hid herself five months, saying, “Thus the Lord has dealt with me, in the days when He looked on me, to take away my reproach among people.”`,
+    ],
   },
   {
     day: 37,
     title: `Announcement of Good News to the Holy Virgin Mary`,
     ornamentName: `Angel`,
-    bibleVerses: `Luke 1:24-38`,
-    readingText: comingSoonText,
+    bibleVerses: `Luke 1:26-38`,
+    readingText: [
+      `Christ's Birth Announced to Mary`,
+      `Now in the sixth month the angel Gabriel was sent by God to a city of Galilee named Nazareth, to a virgin betrothed to a man whose name was Joseph, of the house of David. The virgin's name was Mary. And having come in, the angel said to her, “Rejoice, highly favored one, the Lord is with you; blessed are you among women!”`,
+      `But when she saw him, she was troubled at his saying, and considered what manner of greeting this was. Then the angel said to her, “Do not be afraid, Mary, for you have found favor with God. And behold, you will conceive in your womb and bring forth a Son, and shall call His name JESUS. He will be great, and will be called the Son of the Highest; and the Lord God will give Him the throne of His father David. And He will reign over the house of Jacob forever, and of His kingdom there will be no end.”`,
+      `Then Mary said to the angel, “How can this be, since I do not know a man?”`,
+      `And the angel answered and said to her, “The Holy Spirit will come upon you, and the power of the Highest will overshadow you; therefore, also, that Holy One who is to be born will be called the Son of God. Now indeed, Elizabeth your relative has also conceived a son in her old age; and this is now the sixth month for her who was called barren. For with God nothing will be impossible.”`,
+      `Then Mary said, “Behold the maidservant of the Lord! Let it be to me according to your word.” And the angel departed from her.`,
+    ],
   },
   {
     day: 38,
