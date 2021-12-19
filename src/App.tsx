@@ -25,7 +25,13 @@ function App() {
       )}
 
       <Paper
-        sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 , paddingBottom: '20px'}}
+        sx={{
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          paddingBottom: '20px',
+        }}
         elevation={3}
       >
         <BottomNavigation
@@ -34,8 +40,11 @@ function App() {
             setSelectedNav(newIndex);
           }}
         >
-          <BottomNavigationAction icon={<MenuBook />} />
-          <BottomNavigationAction icon={<FormatListNumbered />} />
+          <BottomNavigationAction icon={<MenuBook />} label="Read" />
+          <BottomNavigationAction
+            icon={<FormatListNumbered />}
+            label="Overview"
+          />
         </BottomNavigation>
       </Paper>
     </div>
