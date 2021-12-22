@@ -39,6 +39,12 @@ export const AllReadings = () => {
       }
     });
   };
+  const onSwipeableViewsMount = async (actions: {
+    updateHeight: () => void;
+  }): Promise<void> => {
+    await new Promise((r) => setTimeout(r, 1000));
+    actions.updateHeight();
+  };
 
   return (
     <>
@@ -86,6 +92,8 @@ export const AllReadings = () => {
         onChangeIndex={(index: number, indexLatest: number) => {
           setSelectedReadingIndex(index);
         }}
+        // @ts-ignore
+        action={onSwipeableViewsMount}
       >
         {readings.map((_, i) => (
           <ReadingDay
