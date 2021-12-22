@@ -39,7 +39,9 @@ export const AllReadings = () => {
       }
     });
   };
-  const onSwipeableViewsMount = async (actions: { updateHeight: () => void}): Promise<void> => {
+  const onSwipeableViewsMount = async (actions: {
+    updateHeight: () => void;
+  }): Promise<void> => {
     await new Promise((r) => setTimeout(r, 1000));
     actions.updateHeight();
   };
