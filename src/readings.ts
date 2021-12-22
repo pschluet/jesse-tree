@@ -997,7 +997,9 @@ export const readings: ReadingDay[] = [
     title: `The Birth of Jesus Christ`,
     ornamentName: `Infant Jesus`,
     bibleVerses: `Luke 2:6-7`,
-    readingText: comingSoonText,
+    readingText: [
+      `So it was, that while they were there, the days were completed for her to be delivered. And she brought forth her firstborn Son, and wrapped Him in swaddling cloths, and laid Him in a manger, because there was no room for them in the inn.`,
+    ],
   },
   {
     day: 42,
