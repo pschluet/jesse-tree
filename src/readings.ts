@@ -6,10 +6,6 @@ export interface ReadingDay {
   readingText: string[];
 }
 
-const comingSoonText = [
-  `Reading text coming soon. If you are viewing this in a browser, refresh the page to get the latest readings. If you have added this as an app to your homescreen, force-close the app and start it again to get the latest readings.`,
-];
-
 export const readings: ReadingDay[] = [
   {
     day: 1,
