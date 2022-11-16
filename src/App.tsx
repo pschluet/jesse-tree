@@ -7,7 +7,7 @@ import '@fontsource/roboto/700.css';
 import tree from './tree-512.png';
 import { AllReadings } from './AllReadings';
 
-export const startDate = new Date(2021, 10, 15, 0, 0, 0, 0);
+export const startDate = new Date(2022, 10, 15, 0, 0, 0, 0);
 
 function App() {
   return (
