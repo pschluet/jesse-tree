@@ -7,7 +7,7 @@ variable "project" {
 variable "ssl_certificate_arn" {
   type        = string
   description = "ARN of the ACM SSL certificate"
-  default     = "arn:aws:acm:us-east-1:435432815368:certificate/0e97aedc-46a5-4394-b28a-5bb0766d3e65"
+  default     = "arn:aws:acm:us-east-1:435432815368:certificate/e2fec70c-b80c-4143-b853-105c118d4749"
 }
 
 variable "route53_hosted_zone_name" {
